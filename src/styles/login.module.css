@@ -1,0 +1,64 @@
+.loginformforgot {
+    float: right !important;
+}
+
+.loginformbutton {
+    width: 100% !important;
+    height: 60px;
+    padding: 15px;
+    font-size: 21px;
+    background-color: #081c15;
+    color: #fff;
+    border: 1px solid #081c15;
+    border-radius: 5px;
+}
+.button{
+    width: 100% !important;
+    height: 60px;
+    padding: 15px;
+    font-size: 21px;
+    background-color: #52b788;
+    border: 1px solid #52b788;
+    border-radius: 5px;
+}
+
+.sign{
+    background-color: black;
+    color: white;
+    font-size: 90px;
+}
+.container{
+    margin: 50px 0;
+    /* padding: 20px 40px; */
+}
+.container h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+}
+.create{
+    font-size: 18px;
+    text-align: end;
+    margin: 40px 10px;
+}
+
+@media screen and (min-width: 680px) {
+    .container{
+        margin: 50px 100px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container {
+        margin: 50px 140px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        margin: 50px 300px;
+    }
+}
+@media screen and (min-width: 1350px) {
+    .container {
+        margin: 50px 400px;
+    }
+}

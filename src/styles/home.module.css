@@ -1,0 +1,132 @@
+body{
+    background-color: #3a5a40;
+}
+.headerdiv{
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+.header{
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+.nav li {
+    margin-right: 25px;
+}
+.nav li a{
+    color: unset;
+}
+.logout{
+    background-color: #3a5a40;
+    border: 1px solid #3a5a40;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    padding: 5px 15px;
+    margin: 20px 0 10px;
+}
+.container{
+    margin: 20px 40px;
+    color: #fff;
+}
+.container h2{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.form{
+    border: 1px solid #344e41;
+    padding: 21px;
+    background-color: #344e41;
+    border-radius: 10px;
+}
+.form input{
+    color: #000;
+}
+.form button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid black;
+}
+.container h3{
+    color: #fff;
+    margin: 20px 0;
+}
+.container ul {
+    background-color: #344e41;
+    border: 1px solid #344e41;
+    border-radius: 10px;
+    list-style: auto;
+    padding: 20px 40px;
+}
+.container li{
+    text-transform: capitalize;
+    /* border: 1px solid #344e41;
+    padding: 10px;
+    background-color: #344e41;
+    border-radius: 10px;
+    list-style: none;
+    margin: 0 0 20px; */
+}
+
+@media screen and (min-width: 680px) {
+    .container{
+        margin: 30px 100px;
+    }
+    .form input{
+        width: 88%;
+    }
+    .container h2{
+        font-size: 18px;
+    }
+    .container h3{
+        margin: 40px 0 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container h2 {
+        font-size: 24px;
+    }
+    .form input {
+        width: 78%;
+        height: 50px;
+        text-indent: 15px;
+    }
+    .form button {
+        height: 51px;
+        font-size: 21px;
+        padding: 4px 10px 10px;
+        width: 170px;
+    }
+    .container h3 {
+        font-size: 21px;
+    }
+    .container ul{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        margin: 30px 150px;
+    }
+    .form input {
+        width: 69%;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .form input {
+        width: 78%;
+    }
+}
